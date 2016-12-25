@@ -1,0 +1,93 @@
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>User Interface</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/style-responsive.css">
+	<!-- <link rel="stylesheet" href="../Nishtha Mehrotra_files/jquery.bxslider.css">
+	<link rel="stylesheet" href="../Nishtha Mehrotra_files/config.css"> -->
+  <!-- <link rel="stylesheet" href="../Nishtha Mehrotra_files/font-awesome.min.css"> -->
+  <link href="http://cdn.bootcss.com/fancybox/2.1.5/jquery.fancybox.css" rel="stylesheet">
+  <link href="http://cdn.bootcss.com/fancybox/2.1.5/helpers/jquery.fancybox-thumbs.css" rel="stylesheet">
+  <script type="text/javascript" src="js/jquery.1.11.1.js"></script>
+  <script src="http://cdn.bootcss.com/fancybox/2.1.5/jquery.fancybox.js"></script>
+  <script src="http://cdn.bootcss.com/fancybox/2.1.5/helpers/jquery.fancybox-thumbs.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+        $(".fancybox-thumb").fancybox({
+            prevEffect  : 'none',
+            nextEffect  : 'none',
+            helpers : {
+                title   : {
+                    type: 'outside'
+                },
+                thumbs  : {
+                    width   : 50,
+                    height  : 50
+                }
+            }
+        });
+        $('body').css('height', $('#work-item').css('height'))
+    })
+</script>
+</head>
+<body>
+  <section id="work-item" class="work-container">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 col-lg-10 col-lg-offset-1">
+        <h1 class="work-full-title"练习设计</h1>
+        <div class="work-descr">
+          Graphic Design
+        </div>
+        <hr>
+        <br>
+        <div class="row">
+          <div class="col-md-12 col-lg-12">
+            <div>
+              <a  class="featured-image fancybox-thumb" rel="bookmark" href="img/project_5/1.png">
+                <img src="img/project_5/1.png" alt="" style="margin-bottom: 1.5%; width: 100%" >
+              </a>
+              <hr><br>
+            </div>
+            <div>
+              <a  class="featured-image fancybox-thumb" rel="bookmark" href="img/project_5/2.png">
+                <img src="img/project_5/2.png" alt="" style="margin-bottom: 1.5%; width: 100%" >
+              </a>
+              <hr><br>
+            </div>
+            <div>
+              <a  class="featured-image fancybox-thumb" rel="bookmark" href="img/project_5/3.png">
+                <img src="img/project_5/3.png" alt="" style="margin-bottom: 1.5%; width: 100%" >
+              </a>
+              <hr><br>
+            </div>
+            <div>
+              <a  class="featured-image fancybox-thumb" rel="bookmark" href="img/project_5/4.png">
+                <img src="img/project_5/4.png" alt="" style="margin-bottom: 1.5%; width: 100%" >
+              </a>
+              <hr><br>
+            </div>
+            <div>
+              <a  class="featured-image fancybox-thumb" rel="bookmark" href="img/project_5/5.png">
+                <img src="img/project_5/5.png" alt="" style="margin-bottom: 1.5%; width: 100%" >
+              </a>
+              <hr><br>
+            </div>
+
+
+
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </section>
+  <div class="work-loader" style="display: none;">
+  </div>
+</body>
+</html>
